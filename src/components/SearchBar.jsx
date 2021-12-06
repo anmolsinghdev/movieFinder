@@ -42,6 +42,7 @@ const SearchBar = () => {
   const tvShow = () => {
     movieApi.get(`${Tv_API}${searchTerm}`).then(({ data }) => {
       setMovies(data.results);
+      setSearchTerm('');
     });
   };
 

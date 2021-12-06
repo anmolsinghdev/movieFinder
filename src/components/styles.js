@@ -109,7 +109,7 @@ export const ActionButton = styled.div`
 
 export const Button = styled.button`
   padding: 0.5rem 1rem;
-  margin: 0rem 1rem;
+  margin: 1rem 1rem;
   border: none;
   background-color: #777;
   color: white;
