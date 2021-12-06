@@ -103,3 +103,19 @@ export const Span = styled.span`
     color: red;
   }
 `;
+export const ActionButton = styled.div`
+  text-align: center;
+`;
+
+export const Button = styled.button`
+  padding: 0.5rem 1rem;
+  margin: 0rem 1rem;
+  border: none;
+  background-color: #777;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+`;
